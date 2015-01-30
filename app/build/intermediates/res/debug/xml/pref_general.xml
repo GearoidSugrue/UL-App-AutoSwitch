@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/pref_update_settings_title"
+        android:key="pref_key_storage_settings">
+    
+    <ListPreference
+        android:defaultValue="Normal"
+        android:entries="@array/pref_list_modes"
+        android:entryValues="@array/pref_list_modes"
+        android:key="mode_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_end_mode"
+        android:dialogTitle="@string/pref_dialog_title_end_mode" />
+    
+    <EditTextPreference 
+        android:inputType="number|numberSigned"
+        android:defaultValue="0"
+        android:key="mins_after_end"
+        android:negativeButtonText="@string/pref_dialog_neg_end_time"
+        android:positiveButtonText="@string/ok"
+        android:title="@string/pref_title_end_time"
+        android:dialogTitle="@string/pref_dialog_title_end_time" />
+
+    </PreferenceCategory>
+    
+</PreferenceScreen><!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/xml/pref_general.xml -->

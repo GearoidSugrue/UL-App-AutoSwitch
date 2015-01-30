@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_general">General Settings</string>
+    <string name="pref_title_end_mode">Mode to switch back to</string>
+
+    <string-array name="pref_list_modes">
+        <item>Normal</item>
+        <item>Vibrate</item>
+        <item>Mute</item>
+    </string-array>
+    <string name="pref_dialog_title_end_mode">Mode to switch back to AFTER Lecs/Labs/Tuts:</string>
+    <string name="pref_update_settings_title">Sync/Update Times Settings</string>
+    <string name="pref_dialog_title_end_time">Mins after(or before) a Lec/Lab/Tut ends to switch modes:</string>
+    <string name="pref_title_end_time">Mins after/before a Collage Hour</string>
+    <string name="pref_dialog_neg_end_time">Cancel</string>
+    <string name="ok">OK</string>   
+
+</resources>

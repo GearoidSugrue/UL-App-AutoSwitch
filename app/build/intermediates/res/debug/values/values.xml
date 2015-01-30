@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="addTimeList">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Everyday</item>
+    </string-array>
+    <string-array name="infoList">
+        <item>The Menu Button on your phone brings up the option to refresh your timetable when viewing it.</item>
+        <item>The app starts itself in the backround when the phone the phone is rebooted.</item>
+        <item>The Update Time option may take a while to update the times as it has to download a file from the internet.</item>
+        <item>After a timetable is viewed, it is saved to the cache so it can load quicker next time.</item>
+        <item>When saved to the cache you will no longer need access to the internet to view your timetable.</item>
+        <item>The last used ID number is set as the default value so you dont have to re-type it.</item>
+    </string-array>
+    <string-array name="listOfDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="modeList">
+        <item>Normal</item>
+        <item>Vibrate</item>
+        <item>Mute</item>
+    </string-array>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string-array name="pref_list_modes">
+        <item>Normal</item>
+        <item>Vibrate</item>
+        <item>Mute</item>
+    </string-array>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="aboutBut">About/Info</string>
+    <string name="addButton">Add Entry</string>
+    <string name="addEntryButton">Add Entry</string>
+    <string name="addInfo">Select the Day(s), Mode and Time to add.</string>
+    <string name="appOn">App is:</string>
+    <string name="app_name">AutoSwitch</string>
+    <string name="backButton">Back</string>
+    <string name="clearAllBut">Delete ALL!</string>
+    <string name="clearDayBut">Clear Selected Day</string>
+    <string name="dayText">Day(s):</string>
+    <string name="developersInfo">Developers: Gearoid Sugrue Denis Fogarty Conor Daly</string>
+    <string name="idInput">Enter UL id.</string>
+    <string name="mainName">Home Screen</string>
+    <string name="modeText">Mode:</string>
+    <string name="mute">Mute</string>
+    <string name="normal">Normal</string>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string name="ok">OK</string>
+    <string name="pref_dialog_neg_end_time">Cancel</string>
+    <string name="pref_dialog_title_end_mode">Mode to switch back to AFTER Lecs/Labs/Tuts:</string>
+    <string name="pref_dialog_title_end_time">Mins after(or before) a Lec/Lab/Tut ends to switch modes:</string>
+    <string name="pref_header_general">General Settings</string>
+    <string name="pref_title_end_mode">Mode to switch back to</string>
+    <string name="pref_title_end_time">Mins after/before a Collage Hour</string>
+    <string name="pref_update_settings_title">Sync/Update Times Settings</string>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="projectName">AutoSwitch</string>
+    <string name="refreshString">Refresh</string>
+    <string name="removeBut">View/Remove Entries</string>
+    <string name="removeInfo">Select Day and Entries below to remove.</string>
+    <string name="settingsString">Settings</string>
+    <string name="textNextDefault">No Entries Exist</string>
+    <string name="textNextTitle"><b><u>Next Change:</u></b></string>
+    <string name="timeTableBut">UL Timetable</string>
+    <string name="timeText">Time:</string>
+    <string name="titleAbout">Info/About</string>
+    <string name="titleAdd">Add Entries</string>
+    <string name="titleRemove">View/Remove Entries</string>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
+    <string name="title_activity_settings">Settings</string>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_time_table_screen">TimeTableScreen</string>
+    <string name="updateTimes">Sync/Update Entries</string>
+    <string name="versionNum">FG1 1st Edition Ver.1.0</string>
+    <string name="vibrate">Vibrate</string>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/values/custom_style.xml -->
+    <eat-comment/>
+    <style name="CustomTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">19dip</item>
+    </style>
+</resources>

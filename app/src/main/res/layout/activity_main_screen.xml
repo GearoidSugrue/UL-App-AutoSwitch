@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen" >
+
+    <ToggleButton
+        android:id="@+id/toggleButtonAppOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <EditText
+        android:id="@+id/idEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toggleButtonAppOn"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/idInput"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/imageinfoBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/aboutBut"
+        android:src="@drawable/infosym"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textNextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textNextChange"
+        android:layout_alignParentLeft="true"
+        android:text="@string/textNextTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#5E91FF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleButtonAppOn"
+        android:layout_alignBottom="@+id/toggleButtonAppOn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/appOn"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/timeTableBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEntry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/timeTableBut" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeTableBut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/updateTimes" />
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/removeBut" />
+
+    <TextView
+        android:id="@+id/textNextChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:text="@string/textNextDefault"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/removeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/addButton" />
+
+</RelativeLayout>

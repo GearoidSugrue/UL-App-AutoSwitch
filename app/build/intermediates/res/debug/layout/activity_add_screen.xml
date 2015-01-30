@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddScreen" >
+
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/addInfo" />
+
+    <Button
+        android:id="@+id/addEntryBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/addEntryButton" />
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/daySpinner"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dayText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/modeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/modeTextView"
+        android:layout_toRightOf="@+id/modeTextView"
+        android:entries="@array/modeList" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoTextView"
+        android:layout_toRightOf="@+id/dayTextView"
+        android:entries="@array/addTimeList" />
+
+    <TextView
+        android:id="@+id/modeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dayTextView"
+        android:layout_marginTop="50dp"
+        android:text="@string/modeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/modeTextView"
+        android:layout_marginTop="50dp"
+        android:text="@string/timeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/timeTextView"
+        android:layout_toRightOf="@+id/timeTextView" />
+
+</RelativeLayout><!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/layout/activity_add_screen.xml -->

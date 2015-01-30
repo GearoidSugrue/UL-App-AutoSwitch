@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoveScreen" >
+
+    <ListView
+        android:id="@+id/timesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/daySpinner" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/clearAllBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/clearAllBut" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/clearAllBut"
+        android:text="@string/removeInfo" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:entries="@array/listOfDays" />
+
+    <Button
+        android:id="@+id/clearDayBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/clearDayBut" />
+
+</RelativeLayout><!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/layout/activity_remove_screen.xml -->

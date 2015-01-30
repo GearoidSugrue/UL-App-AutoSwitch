@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoSwitch</string> 
+    <string name="removeBut">View/Remove Entries</string>
+
+    <string-array name="listOfDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="removeInfo">Select Day and Entries below to remove.</string>
+    <string name="addButton">Add Entry</string>
+    <string name="addInfo">Select the Day(s), Mode and Time to add.</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="mute">Mute</string>
+    <string name="normal">Normal</string>
+    <string name="addEntryButton">Add Entry</string>
+    <string name="backButton">Back</string>
+    <string name="idInput">Enter UL id.</string>
+    <string name="timeTableBut">UL Timetable</string>
+    <string name="aboutBut">About/Info</string>
+    <string name="versionNum">FG1 1st Edition Ver.1.0</string>
+    <string name="developersInfo">Developers: Gearoid Sugrue Denis Fogarty Conor Daly</string>
+    <string name="title_activity_time_table_screen">TimeTableScreen</string>
+    <string name="appOn">App is:</string>
+    <string name="updateTimes">Sync/Update Entries</string>
+    <string name="clearAllBut">Delete ALL!</string> 
+    <string name="refreshString">Refresh</string>
+    <string name="titleRemove">View/Remove Entries</string>
+    <string name="titleAdd">Add Entries</string>
+    <string name="titleAbout">Info/About</string>
+    <string-array name="infoList">
+        <item >The Menu Button on your phone brings up the option to refresh your timetable when viewing it.</item>
+        <item >The app starts itself in the backround when the phone the phone is rebooted.</item>
+        <item >The Update Time option may take a while to update the times as it has to download a file from the internet.</item>
+        <item >After a timetable is viewed, it is saved to the cache so it can load quicker next time.</item>
+        <item >When saved to the cache you will no longer need access to the internet to view your timetable.</item>
+        <item >The last used ID number is set as the default value so you dont have to re-type it.</item>
+    </string-array>
+    <string name="mainName">Home Screen</string>
+    <string name="projectName">AutoSwitch</string>
+    <string name="textNextTitle"><b><u>Next Change:</u></b></string>
+    <string name="textNextDefault">No Entries Exist</string>
+    <string name="settingsString">Settings</string>
+    <string-array name="addTimeList">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Everyday</item>
+    </string-array>
+    <string name="clearDayBut">Clear Selected Day</string>
+    <string-array name="modeList">
+        <item >Normal</item>
+        <item >Vibrate</item>
+        <item >Mute</item>
+    </string-array>
+    <string name="modeText">Mode:</string>
+    <string name="dayText">Day(s):</string>
+    <string name="timeText">Time:</string>
+    
+
+</resources>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/refresh"         
+          android:title="@string/refreshString" />
+
+</menu><!-- From: file:/home/gearoid/AndroidstudioProjects/appProject/app/src/main/res/menu/activity_time_table_screen.xml -->

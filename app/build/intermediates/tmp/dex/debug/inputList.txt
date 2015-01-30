@@ -1,0 +1,2 @@
+/home/gearoid/AndroidstudioProjects/appProject/app/build/intermediates/classes/debug
+/home/gearoid/AndroidstudioProjects/appProject/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-e54a14b87a88a259fb250f70c0bd6cf7f513a802.jar
